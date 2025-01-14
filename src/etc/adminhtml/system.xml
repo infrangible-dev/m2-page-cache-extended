@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<!--
+ * @author      Andreas Knollmann
+ * @copyright   Copyright (c) 2014-2025 Softwareentwicklung Andreas Knollmann
+ * @license     http://www.opensource.org/licenses/mit-license.php MIT
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="infrangible_pagecachextended" sortOrder="920" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
+            <tab>infrangible</tab>
+            <class>separator-top</class>
+            <label>Page Cache Extended</label>
+            <resource>Infrangible_PageCacheExtended::config_infrangible_pagecachextended</resource>
+            <group id="settings" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Settings</label>
+                <field id="checks" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Checks</label>
+                    <frontend_model>Infrangible\PageCacheExtended\Block\Adminhtml\Form\Field\Checks</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
