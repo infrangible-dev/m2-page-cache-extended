@@ -1,11 +1,17 @@
 {
     "name": "infrangible/m2-page-cache-extended",
-    "description": "Infrangible Magento 2 Page Cache Extended",
+    "description": "Lets you keep separate full page cache versions depending on rules for URL parameters, headers, cookies or server values.",
     "type": "magento2-module",
     "version": "1.0.1",
     "license": "MIT",
     "keywords": [
-        "Magento"
+        "Magento",
+        "Magento 2",
+        "Adobe Commerce",
+        "Performance",
+        "full page cache variations",
+        "cache by cookie or header",
+        "vary full page cache"
     ],
     "homepage": "https://bitbucket.org/infrangible/m2-page-cache-extended",
     "authors": [
